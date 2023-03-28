@@ -1,0 +1,9 @@
+## Dotenv environment variables file
+.env
+.env.test
+
+## VSCode
+.vscode/
+
+## MacOS
+.DS_Store

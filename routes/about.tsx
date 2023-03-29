@@ -5,15 +5,12 @@ export default function AboutPage() {
     <>
       <Head>
         <title>About</title>
+        <link rel="stylesheet" href="stylesheet.css" />
       </Head>
-      <main>
+      <div class="about">
         <h1>About</h1>
-        <p style={titleStyle}>This is the about page.</p>
-      </main>
+        <p class="about__title-text">This is the about page.</p>
+      </div>
     </>
   );
 }
-
-const titleStyle = `
-  color: #035435;
-`;

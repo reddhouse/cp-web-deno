@@ -1,0 +1,90 @@
+/* Naming convention modeled after BEM: https://getbem.com/naming/ */
+
+html {
+  height: 100%;
+  /* Use px at the root, rem for components, and em for text elements. */
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  /* Show math of pixel equivalents instead of 1.0625, etc. */
+  font-size: calc(18/16 * 1rem);
+  line-height: 1.6;
+  color: var(--tw-gray-800);
+  background-color: white;
+}
+
+/* Force inheritance of border-box throughout app. */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* Variables */
+
+/* Colors borrowed from Tailwind: https://tailwindcss.com/docs/customizing-colors */
+:root {
+  --tw-gray-800: #1f2937;
+}
+
+
+/* Home page. */
+
+.home {
+  padding: 0px 20px;
+}
+
+.home__fr-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home__fc-tagline {
+  max-width: 300px;
+}
+
+.home__fc-image {
+  flex: 1 1 auto;
+}
+
+.home__tagline {
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.home__tagline--colored {
+  color: #6a00ff;
+}
+
+.home__welcome-text {
+  color: #ffd500;
+}
+
+@media (max-width: 450px) {
+  .home__welcome-text {
+    color: #0eee6f;
+  }  
+}
+
+.home__lemon-svg {
+  object-fit: cover;
+  width: 100%;
+}
+
+
+/* About page. */
+
+.about {
+  color: #06a166;
+}
+
+.about__title-text {
+  color: #c30404;
+}

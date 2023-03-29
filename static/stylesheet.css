@@ -1,9 +1,7 @@
-/* Naming convention modeled after BEM: https://getbem.com/naming/ */
+/* Got BEM? https://getbem.com/naming/ */
 
 html {
   height: 100%;
-  /* Use px at the root, rem for components, and em for text elements. */
-  font-size: 16px;
 }
 
 body {
@@ -13,8 +11,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  /* Show math of pixel equivalents instead of 1.0625, etc. */
-  font-size: calc(18/16 * 1rem);
+  font-size: 18px;
   line-height: 1.6;
   color: var(--tw-gray-800);
   background-color: white;
@@ -26,15 +23,19 @@ body {
 }
 
 
-/* Variables */
+/**
+* Variables
+*/
 
-/* Colors borrowed from Tailwind: https://tailwindcss.com/docs/customizing-colors */
+/* Colors borrowed from Tailwind: https://tailwindcss.com/docs/customizing-colors. */
 :root {
   --tw-gray-800: #1f2937;
 }
 
 
-/* Home page. */
+/**
+* Home Page
+*/
 
 .home {
   padding: 0px 20px;
@@ -43,34 +44,89 @@ body {
 .home__fr-1 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .home__fc-tagline {
-  max-width: 300px;
+  max-width: 640px;
 }
 
 .home__fc-image {
   flex: 1 1 auto;
+  min-width: 200px;
 }
 
 .home__tagline {
-  font-size: 1.5em;
+  padding-top: 40px;
+  font-size: 28px;
   line-height: 1;
   font-weight: 800;
+  text-align: center;
 }
 
-.home__tagline--colored {
+.home__tagline--emphasized {
   color: #6a00ff;
+}
+
+.home__sub-tagline {
+  padding-top: 40px;
+  max-width: 400px;
+  text-align: center;
 }
 
 .home__welcome-text {
   color: #ffd500;
 }
 
-@media (max-width: 450px) {
-  .home__welcome-text {
-    color: #0eee6f;
-  }  
+/* Width less than 339px */
+@media (max-width: 339px) {
+  .home__of-top {
+    display: none;
+  } 
+}
+
+/* Width 340px or greater */
+@media (min-width: 340px) {
+  .home__of-bottom {
+    display: none;
+  }
+  .home__tagline--emphasized {
+    font-size: 34px;
+  }
+}
+
+/* Width 400px or greater */
+@media (min-width: 400px) {
+  .home__tagline {
+    font-size: 32px;
+  }
+  .home__tagline--emphasized {
+    font-size: 40px;
+  }
+}
+
+/* Width 450px or greater */
+@media (min-width: 450px) {
+  .home__tagline {
+    font-size: 40px;
+  }
+  .home__tagline--emphasized {
+    font-size: 48px;
+  }
+}
+
+/* Width 640px or greater */
+@media (min-width: 640px) {
+  .home__tagline {
+    font-size: 32px;
+    text-align: left;
+  }
+  .home__tagline--emphasized {
+    font-size: 40px;
+  }
+  .home__sub-tagline {
+    text-align: left;
+  }
 }
 
 .home__lemon-svg {
@@ -79,7 +135,9 @@ body {
 }
 
 
-/* About page. */
+/**
+* About Page
+*/
 
 .about {
   color: #06a166;

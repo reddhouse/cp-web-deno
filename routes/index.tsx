@@ -11,18 +11,22 @@ export default function Home() {
       <div class="home">
         <div class="home__fr-1">
           <div class="home__fc-tagline">
-            <h1 class="home__tagline">
-              Take control of
+            <div class="home__tagline">
+              <span>Take control of</span>
               <br />
-              <span class="home__tagline--colored">your government</span>.
+              <span class="home__tagline--emphasized">your government.</span>
               <br />
-              Decide the future
               <br />
-              of <span class="home__tagline--colored">our nation</span>.
-            </h1>
+              <span>Decide the future</span>
+              <span class="home__of-top"> of </span>
+              <br />
+              <span class="home__of-bottom"> of </span>
+              <span class="home__tagline--emphasized">our nation.</span>
+            </div>
             <div class="home__sub-tagline">
-              Join the first cooperatively-owned, collectively-managed political
-              party.
+              We are the first cooperatively owned & managed political party.
+              Our members set our goals, and shape the process we use to achieve
+              them.
             </div>
           </div>
           <div class="home__fc-image">

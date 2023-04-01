@@ -9,8 +9,8 @@ export default function Home() {
         <link rel="stylesheet" href="stylesheet.css" />
       </Head>
       <div class="home">
-        <div class="home__fr-1">
-          <div class="home__fc-tagline">
+        <div class="home__flex-row-tagline">
+          <div class="home__flex-col-tagline">
             <div class="home__tagline">
               <span>Take control of</span>
               <br />
@@ -24,12 +24,12 @@ export default function Home() {
               <span class="home__tagline--emphasized">our nation.</span>
             </div>
             <div class="home__sub-tagline">
-              We are the first cooperatively owned & managed political party.
-              Our members set our goals, and shape the process we use to achieve
-              them.
+              Join the first cooperatively owned & managed political party,
+              built from the ground-up for member participation and complete
+              transparency.
             </div>
           </div>
-          <div class="home__fc-image">
+          <div class="home__flex-col-image">
             <img
               class="home__lemon-svg"
               src="/logo.svg"
@@ -37,6 +37,27 @@ export default function Home() {
             />
           </div>
         </div>
+
+        <div class="home__flex-row-details">
+          <div class="home__flex-col-image">
+            <img
+              class="home__lemon-svg"
+              src="/logo.svg"
+              alt="the fresh logo: a sliced lemon dripping with juice"
+            />
+          </div>
+          <div class="home__flex-col-details">
+            <div class="home__details">
+              <span>Another blurb goes here.</span>
+            </div>
+            <div class="home__sub-details">
+              Join the first cooperatively owned & managed political party,
+              built from the ground-up for member participation and complete
+              transparency.
+            </div>
+          </div>
+        </div>
+
         <p class="home__welcome-text">
           Welcome to `fresh`. Try updating this message in the
           ./routes/index.tsx file, and refresh.

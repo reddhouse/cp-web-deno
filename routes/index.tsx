@@ -56,7 +56,7 @@ export default function Home() {
           The Cooperative Party eliminates the influence of money in politics by
           sending a different type of representative to congress. Our
           representatives don’t have personal agendas, or careers to build in
-          politics. The simply follow a pre-determined script, written by
+          politics. They simply follow a pre-determined script, written by
           Cooperative Party members. No campaigning, no "deal making", no
           bullshit.
         </div>

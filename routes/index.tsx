@@ -36,21 +36,21 @@ export default function Home() {
           </div>
           <div class="home__flex-col-blurb">
             <div class="home__blurb-heading">
-              <span>Duopoly be damned</span>
+              <span>Doing nothing, loudly.</span>
             </div>
             <div class="home__blurb-details">
-              Our two dominant political parties are not what they seem. As they
-              profess to hold competing values and visions for the country,
-              their primary function is to auction lawmaking to the highest
-              bidder. Laws and reforms that would deliver the greatest benefits
-              for average Americans, rarely see the light of day, since only the
-              wealthy can afford access.
+              As our two dominant political parties scream and shout over
+              competing values and visions for the country, they work in
+              remarkable unison to take money from those who can afford to buy
+              favorable legislation. Meanwhile, laws and reforms that would
+              deliver the greatest benefits for average Americans, rarely see
+              the light of day.
             </div>
           </div>
         </div>
 
         <div class="home__blurb-heading">
-          <span>Corruption-proof by default</span>
+          <span>Corruption-proof by default.</span>
         </div>
         <div class="home__blurb-details">
           The Cooperative Party eliminates the influence of money in politics by
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
           <div class="home__flex-col-blurb">
             <div class="home__blurb-heading">
-              <span>Cooperative by design</span>
+              <span>Cooperative by design.</span>
             </div>
             <div class="home__blurb-details">
               Rather than recruiting like-minded people to rally behind various
@@ -79,12 +79,10 @@ export default function Home() {
               agreeable.
               <br />
               <br />
-              Naturally, the term “cooperative” describes the structure of our
-              organization. Members define the party's priorities, members
-              control the party's finances, and members choose the
-              representatives we send to congress. We find common ground so
-              politicians no longer need to waste time (and earn kickbacks)
-              brokering deals.
+              “Cooperative” also describes the structure of our organization.
+              Members define the party's priorities, control the party's
+              finances, and choose the representatives we send to congress. We
+              find common ground so lawmakers can exit the deal-making business.
             </div>
           </div>
         </div>

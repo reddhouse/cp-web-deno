@@ -40,7 +40,7 @@ body {
 
 .home {
   max-width: 1200px;
-  padding: 20px;
+  padding: 0px 20px;
   margin: 0 auto;
 }
 
@@ -131,6 +131,7 @@ body {
 /* Width 450px or greater */
 @media (min-width: 450px) {
   .home__tagline {
+    padding-top: 50px;
     font-size: 40px;
   }
   .home__tagline--emphasized {
@@ -141,7 +142,7 @@ body {
 /* Width 640px or greater */
 @media (min-width: 640px) {
   .home {
-    padding: 40px;
+    padding: 0px 40px;
   }
 
   .home__sub-tagline, .home__blurb-details {

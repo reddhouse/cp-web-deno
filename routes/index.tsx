@@ -36,15 +36,15 @@ export default function Home() {
           </div>
           <div class="home__flex-col-blurb">
             <div class="home__blurb-heading">
-              <span>Doing nothing, loudly.</span>
+              <span>The Republi-cratic monopoly.</span>
             </div>
             <div class="home__blurb-details">
-              As our two dominant political parties scream and shout over
-              competing values and visions for the country, they work in
-              remarkable unison to take money from those who can afford to buy
-              favorable legislation. Meanwhile, laws and reforms that would
-              deliver the greatest benefits for average Americans, rarely see
-              the light of day.
+              Pretending to compete over values and visions for the country,
+              America's two dominant political parties work in remarkable unison
+              to solicit money from those who can afford to buy favorable
+              legislation. Meanwhile, laws and reforms that would deliver the
+              greatest benefits for average Americans, rarely see the light of
+              day.
             </div>
           </div>
         </div>
@@ -57,7 +57,8 @@ export default function Home() {
           sending a different type of representative to congress. Our
           representatives don’t have personal agendas, or careers to build in
           politics. The simply follow a pre-determined script, written by
-          Cooperative Party members.
+          Cooperative Party members. No campaigning, no "deal making", no
+          bullshit.
         </div>
 
         <div class="home__flex-row-generic">
@@ -79,10 +80,9 @@ export default function Home() {
               agreeable.
               <br />
               <br />
-              “Cooperative” also describes the structure of our organization.
-              Members define the party's priorities, control the party's
-              finances, and choose the representatives we send to congress. We
-              find common ground so lawmakers can exit the deal-making business.
+              The Cooperative Party is also cooperatively managed. Members
+              define the party's priorities, control the party's finances, and
+              choose the representatives we send to congress.
             </div>
           </div>
         </div>

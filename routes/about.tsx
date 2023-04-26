@@ -1,4 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
+import Counter from "../islands/Counter.tsx";
 
 export default function AboutPage() {
   return (
@@ -9,7 +10,16 @@ export default function AboutPage() {
       </Head>
       <div class="about">
         <h1>About</h1>
-        <p class="about__title-text">This is the about page.</p>
+        <p>When life gives you lemons...</p>
+        <div class="about__image-container">
+          <img
+            class="about__lemon-svg"
+            src="/logo.svg"
+            alt="the fresh logo: a sliced lemon dripping with juice"
+          />
+        </div>
+        <p>A counter, on an island...</p>
+        <Counter start={3} />
       </div>
     </>
   );

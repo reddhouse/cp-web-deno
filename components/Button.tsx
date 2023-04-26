@@ -12,5 +12,5 @@ export function Button(props: JSX.HTMLAttributes<HTMLButtonElement>) {
 }
 
 const buttonStyle = `
-  background-color: #0022ff78;
+  background-color: #0022ff2c;
 `;

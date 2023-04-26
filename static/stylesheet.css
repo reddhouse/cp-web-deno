@@ -31,6 +31,7 @@ body {
 /* Colors borrowed from Tailwind: https://tailwindcss.com/docs/customizing-colors. */
 :root {
   --tw-gray-800: #1f2937;
+  --tw-violet-700: #6d28d9;
 }
 
 
@@ -44,22 +45,6 @@ body {
   margin: 0 auto;
 }
 
-.home__flex-row-tagline {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.home__flex-col-tagline {
-  max-width: 640px;
-}
-
-.home__flex-col-image {
-  flex: 1 1 auto;
-  min-width: 200px;
-  max-width: 500px;
-}
-
 .home__tagline {
   padding-top: 40px;
   font-size: 28px;
@@ -68,7 +53,7 @@ body {
 }
 
 .home__tagline--emphasized {
-  color: #6a00ff;
+  color: var(--tw-violet-700);
 }
 
 .home__sub-tagline {
@@ -76,29 +61,19 @@ body {
   max-width: 400px;
 }
 
-.home__welcome-text {
-  color: #ffd500;
-}
-
-.home__flex-row-generic {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.home__flex-col-blurb {
-  max-width: 640px;
+.home__blurb {
+  max-width: 600px;
 }
 
 .home__blurb-heading {
   padding-top: 40px;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 1;
   font-weight: 800;
 }
 
 .home__blurb-details {
   padding-top: 40px;
-  max-width: 400px;
 }
 
 /* Width less than 339px */
@@ -126,6 +101,9 @@ body {
   .home__tagline--emphasized {
     font-size: 40px;
   }
+  .home__blurb-heading {
+    font-size: 24px;
+  }
 }
 
 /* Width 450px or greater */
@@ -136,6 +114,9 @@ body {
   }
   .home__tagline--emphasized {
     font-size: 48px;
+  }
+  .home__blurb-heading {
+    font-size: 28px;
   }
 }
 
@@ -151,20 +132,21 @@ body {
   }
 }
 
-.home__lemon-svg {
-  object-fit: cover;
-  width: 100%;
-}
-
-
 /**
 * About Page
 */
 
 .about {
-  color: #06a166;
+  max-width: 1200px;
+  padding: 0px 20px;
+  margin: 0 auto;
 }
 
-.about__title-text {
-  color: #c30404;
+.about__image-container {
+  width: 400px;
+}
+
+.about__lemon-svg {
+  object-fit: cover;
+  width: 100%;
 }

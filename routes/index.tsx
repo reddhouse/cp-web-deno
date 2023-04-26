@@ -26,72 +26,48 @@ export default function Home() {
           challenges everything you’ve come to expect from a political party.
         </div>
 
-        <div class="home__flex-row-generic">
-          <div class="home__flex-col-image">
-            <img
-              class="home__lemon-svg"
-              src="/logo.svg"
-              alt="the fresh logo: a sliced lemon dripping with juice"
-            />
+        <div class="home__blurb">
+          <div class="home__blurb-heading">
+            <span>The Republi-cratic monopoly.</span>
           </div>
-          <div class="home__flex-col-blurb">
-            <div class="home__blurb-heading">
-              <span>The Republi-cratic monopoly.</span>
-            </div>
-            <div class="home__blurb-details">
-              Pretending to compete over values and visions for the country,
-              America's two dominant political parties work in remarkable unison
-              to solicit money from those who can afford to buy favorable
-              legislation. Meanwhile, laws and reforms that would deliver the
-              greatest benefits for average Americans, rarely see the light of
-              day.
-            </div>
+          <div class="home__blurb-details">
+            Pretending to compete over values and visions for the country,
+            America's two dominant political parties work in remarkable unison
+            to solicit money from those who can afford to buy favorable
+            legislation. Meanwhile, laws and reforms that would deliver the
+            greatest benefits for average Americans, rarely see the light of
+            day.
           </div>
         </div>
 
-        <div class="home__blurb-heading">
-          <span>Corruption-proof by default.</span>
-        </div>
-        <div class="home__blurb-details">
-          The Cooperative Party eliminates the influence of money in politics by
-          sending a different type of representative to congress. Our
-          representatives don’t have personal agendas, or careers to build in
-          politics. They simply follow a pre-determined script, written by
-          Cooperative Party members. No campaigning, no "deal making", no
-          bullshit.
-        </div>
-
-        <div class="home__flex-row-generic">
-          <div class="home__flex-col-image">
-            <img
-              class="home__lemon-svg"
-              src="/logo.svg"
-              alt="the fresh logo: a sliced lemon dripping with juice"
-            />
+        <div class="home__blurb">
+          <div class="home__blurb-heading">
+            <span>Corruption-proof by default.</span>
           </div>
-          <div class="home__flex-col-blurb">
-            <div class="home__blurb-heading">
-              <span>Cooperative by design.</span>
-            </div>
-            <div class="home__blurb-details">
-              Rather than recruiting like-minded people to rally behind various
-              causes, we start with members from different walks of life,
-              identify the problems they share, and the solutions they find
-              agreeable.
-              <br />
-              <br />
-              The Cooperative Party is also cooperatively managed. Members
-              define the party's priorities, control the party's finances, and
-              choose the representatives we send to congress.
-            </div>
+          <div class="home__blurb-details">
+            The Cooperative Party eliminates the influence of money in politics
+            by sending a different type of representative to congress. Our
+            representatives don’t have personal agendas, or careers to build in
+            politics. They simply follow a pre-determined script, written by
+            Cooperative Party members. No campaigning, no "deal making", no
+            bullshit.
           </div>
         </div>
 
-        <p class="home__welcome-text">
-          Welcome to `fresh`. Try updating this message in the
-          ./routes/index.tsx file, and refresh.
-        </p>
-        <Counter start={3} />
+        <div class="home__blurb">
+          <div class="home__blurb-heading">
+            <span>Cooperative by design.</span>
+          </div>
+          <div class="home__blurb-details">
+            Rather than recruiting like-minded people to rally behind various
+            causes, we start with members from different walks of life, identify
+            the problems they share, and the solutions they find agreeable.
+            <br />
+            The Cooperative Party is also cooperatively managed. Members define
+            the party's priorities, control the party's finances, and choose the
+            representatives we send to congress.
+          </div>
+        </div>
       </div>
     </>
   );

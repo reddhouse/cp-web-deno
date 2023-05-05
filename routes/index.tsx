@@ -31,12 +31,11 @@ export default function Home() {
             <span>The Republi-cratic monopoly.</span>
           </div>
           <div class="home__blurb-details">
-            Pretending to compete over values and visions for the country,
+            Feigning competition over values and visions for the country,
             America's two dominant political parties work in remarkable unison
-            to solicit money from those who can afford to buy favorable
-            legislation. Meanwhile, laws and reforms that would deliver the
-            greatest benefits for average Americans, rarely see the light of
-            day.
+            to protect the interests of their biggest donors. Laws and reforms
+            that would deliver the greatest benefits for average Americans, are
+            routinely blocked or buried.
           </div>
         </div>
 

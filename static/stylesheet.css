@@ -111,9 +111,6 @@ body {
   .home__of-bottom {
     display: none;
   }
-  .home__tagline--emphasized {
-    font-size: 34px;
-  }
 }
 
 /* Width 400px or greater */

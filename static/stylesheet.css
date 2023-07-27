@@ -72,7 +72,7 @@ body {
 
 .home__tagline--emphasized {
   color: var(--tw-violet-700);
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .home__sub-tagline {
@@ -96,7 +96,7 @@ body {
 }
 
 .home__sign-up {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 /* Width less than 339px */
@@ -122,7 +122,7 @@ body {
     font-size: 32px;
   }
   .home__tagline--emphasized {
-    font-size: 38px;
+    font-size: 32px;
   }
   .home__blurb-heading {
     font-size: 24px;
@@ -132,10 +132,10 @@ body {
 /* Width 450px or greater */
 @media (min-width: 450px) {
   .home__tagline {
-    font-size: 36px;
+    font-size: 40px;
   }
   .home__tagline--emphasized {
-    font-size: 42px;
+    font-size: 40px;
   }
   .home__blurb-heading {
     font-size: 28px;

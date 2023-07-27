@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       <div class="home">
         <div class="home__tagline">Politics without politicians</div>
-        <div class="home__tagline">Elections without campaigning</div>
+        <div class="home__tagline">Elections without campaigns</div>
         <div class="home__tagline">
           <span class="home__tagline--emphasized">
             Government under your control
@@ -26,7 +26,7 @@ export default function Home() {
           <div class="home__sign-up">
             <input />
             <span>
-              <button>Sign Up</button> or Login
+              <button>Sign Up</button>
             </span>
           </div>
         </div>

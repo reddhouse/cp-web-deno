@@ -1,39 +1,27 @@
 import { Head } from "$fresh/runtime.ts";
+import Hero from "../components/Hero.tsx";
 import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Fresh App</title>
+        <title>Cooperative Party</title>
         <link rel="stylesheet" href="stylesheet.css" />
+        <link rel="stylesheet" href="stylesheet-hero.css" />
       </Head>
       <div class="header">
         Home&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;Contact
+        <hr />
       </div>
       <div class="home">
-        <div class="home__tagline">Politics without politicians</div>
-        <div class="home__tagline">Elections without campaigns</div>
-        <div class="home__tagline">
-          <span class="home__tagline--emphasized">
-            Government under your control
-          </span>
-        </div>
-        <div class="home__sub-tagline">
-          Join the first cooperatively owned & managed political party, built
-          from the ground up to advance popular initiatives, and dismantle
-          failing institutions.
-          <div class="home__sign-up">
-            <input />
-            <span>
-              <button>Sign Up</button>
-            </span>
-          </div>
-        </div>
-
+        <Hero />
+        <div class="home__spacer"></div>
         <div class="home__blurb">
           <div class="home__blurb-heading">
-            <span>The problem with Republi-crats</span>
+            <span class="home__blurb-heading--bold">
+              Democrat vs Republican is a false choice.
+            </span>
           </div>
           <div class="home__blurb-details">
             Despite their advertised differences, America's two dominant
@@ -46,7 +34,10 @@ export default function Home() {
 
         <div class="home__blurb">
           <div class="home__blurb-heading">
-            <span>Corruption-proof by default.</span>
+            <span>We are </span>
+            <span class="home__blurb-heading--bold">
+              Corruption-proof by default.
+            </span>
           </div>
           <div class="home__blurb-details">
             The Cooperative Party eliminates the influence of money in politics
@@ -59,7 +50,10 @@ export default function Home() {
 
         <div class="home__blurb">
           <div class="home__blurb-heading">
-            <span>Cooperative by design.</span>
+            <span>We are </span>
+            <span class="home__blurb-heading--bold">
+              Cooperative by design.
+            </span>
           </div>
           <div class="home__blurb-details">
             Rather than recruiting like-minded people to rally behind various

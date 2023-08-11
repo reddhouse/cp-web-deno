@@ -1,0 +1,57 @@
+.hero__tag-flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 840px;
+}
+
+.hero__tag-column {
+  min-width: 280px;
+  padding-bottom: 60px;
+}
+
+.hero__tag-container {
+  padding-top: 30px;
+  line-height: 1;
+}
+
+.hero__tag-text-top {
+  font-size: 28px;
+}
+
+.hero__tag-text-bottom {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.hero__action-column {
+  max-width: 540px;
+}
+
+.hero__sign-up {
+  padding-top: 20px;
+}
+
+/* Note 400px breakpoint in parent component. */
+
+/* Width 450px or greater */
+@media (min-width: 450px) {
+  .hero__tag-text-top {
+    font-size: 36px;
+  }
+  .hero__tag-text-bottom {
+    font-size: 30px;
+  }
+  .hero__tag-column {
+    padding-bottom: 60px;
+  }
+}
+
+/* Note 640px breakpoint in parent component. */
+
+/* Width 900px or greater */
+@media (min-width: 900px) {
+  .hero__action-container {
+    padding: 100px 40px 0px 80px;
+  }
+}

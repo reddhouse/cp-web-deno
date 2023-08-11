@@ -5,12 +5,14 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>About</title>
-        <link rel="stylesheet" href="stylesheet.css" />
+        <title>Cooperative Party | About</title>
+        <link rel="stylesheet" href="stylesheet-about.css" />
       </Head>
       <div class="about">
         <h1>About</h1>
-        <p>When life gives you lemons...</p>
+
+        <Counter start={3} />
+
         <div class="about__image-container">
           <img
             class="about__lemon-svg"
@@ -18,8 +20,6 @@ export default function AboutPage() {
             alt="the fresh logo: a sliced lemon dripping with juice"
           />
         </div>
-        <p>A counter, on an island...</p>
-        <Counter start={3} />
       </div>
     </>
   );

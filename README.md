@@ -1,3 +1,3 @@
-# cooperative-web
+# cp-web-deno
 
-Application server for the Cooperative Party.
+Experimental application server, no longer in use.
